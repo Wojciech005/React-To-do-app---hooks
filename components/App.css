@@ -1,0 +1,99 @@
+body {
+  background-image: url(photo2.jpg);
+  background-image: cover;
+  font-size: arial;
+}
+
+div.wrap {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 60px;
+  font-style: oblique;
+}
+
+span {
+  font-size: 40px;
+  font-style: oblique;
+ 
+}
+
+span.wrap {
+  border: 3px solid black;
+  padding: 5px 20px;
+  border-radius: 55px 20px 37px 31px; ;
+}
+
+form {
+  margin-top: 30px;
+
+}
+form input {
+  margin-right:10px;
+  width: 20vw;
+  height: 30px;
+  font-size: 16px;
+  /* border-radius: 9px; */
+  background:transparent;
+  color: black;
+  border: none;
+  border-bottom: 3px solid black;
+  -webkit-writing-mode: none;
+
+  
+}
+
+button.add {
+  font-family: arial;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  background:transparent;
+  border: 3px solid black;
+  border-radius: 9px;
+  font-size: 20px;
+  /* opacity: 0.5; */
+  transition: 0.3s linear;
+}
+
+button.add:hover {
+  background-color: black;
+  color: white;
+}
+
+button.delete {
+  font-family: arial;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  background:transparent;
+  border: 3px solid black;
+  border-radius: 9px;
+  transition: 0.3s linear;
+}
+
+button.delete:hover {
+  background-color: black;
+  color: white;
+}
+
+::placeholder {
+  color: black;
+  text-align:center;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+ul.list {
+  text-decoration: none;
+  list-style: none;
+}
+
+li.taskList span {
+  padding: 0 10px;
+  font-size: 20px;
+  width: 300px;
+  border-bottom: 2px solid black;
+  /* border-left: 2px solid black; */
+  
+}
